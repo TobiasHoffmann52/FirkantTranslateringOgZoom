@@ -14,7 +14,7 @@ void draw() {
   background(0);
   fill(255);
   for (int i = 0; i < 100; i++) {
-    rect((i%10*80+x-100)*s, (i/10*80+y-100)*s, 30*s, 30*s);
+    rect(((i%10)*80+x-100)*s, (i/10*80+y-100)*s, 30*s, 30*s);
   }
   if (keyPressed) {
     if (keyCode == 38) {
